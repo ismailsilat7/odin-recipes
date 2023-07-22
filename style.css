@@ -42,9 +42,14 @@ em {
 }
 
 img {
-  display: block;
   margin: 20px auto;
   max-width: fit-content;
+  width: 100%;
+  height: auto;
+  display: block; 
+  border: 3px solid #e0672e;
+  border-radius: 15px;
+  border-color: #e0672e;
 }
 
 ul, ol {
