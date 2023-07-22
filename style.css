@@ -4,6 +4,10 @@ body {
   background-color: #f8f8f8;
 }
 
+.slogan {
+  text-align: center;
+}
+
 .heading,.recipe-link, h3, .dots, .sub-heading {
   color: #e0672e;
 }
