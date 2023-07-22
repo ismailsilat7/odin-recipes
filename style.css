@@ -4,12 +4,13 @@ body {
   background-color: #f8f8f8;
 }
 
-.heading,.recipe-link, h3, .dots {
+.heading,.recipe-link, h3, .dots, .sub-heading {
   color: #e0672e;
 }
 
 .heading {
   font-family: 'Pacifico', cursive;
+  text-align: center;
 }
 
 h3 {
@@ -24,9 +25,26 @@ h3 {
   color: ghostwhite;
   text-decoration: none;
   border-radius: 3px;
-  padding: 3px;
+  padding: 6px;
 }
 
 .dots {
   margin-bottom: 15px;
 }
+
+em {
+  font-style: italic;
+  color: #e0672e;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: fit-content;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+
