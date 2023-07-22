@@ -25,11 +25,16 @@ h3 {
 }
 
 .recipe-link {
-  background-color: #e0672e;
-  color: ghostwhite;
+  background-color: #f8f8f8;
+  color: #333;
   text-decoration: none;
   border-radius: 3px;
   padding: 6px;
+}
+
+.recipe-link:hover {
+  background-color: #e0672e;
+  color: ghostwhite;
 }
 
 .dots {
