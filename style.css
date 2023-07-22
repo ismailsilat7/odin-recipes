@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+.heading,.recipe-link, h3, .dots {
+  color: #e0672e;
+}
+
+.heading {
+  font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  border-bottom: 1px solid #e0672e;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+.recipe-link {
+  background-color: #e0672e;
+  color: ghostwhite;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.dots {
+  margin-bottom: 15px;
+}
