@@ -68,18 +68,28 @@
   max-width: 500px;
 }
 
-.description > p {
+.description > p, .ingredients > ul, .ingredients > ol {
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.description > .heading {
+.description > .heading, .ingredients > .heading {
   font-size: 35px;
 }
 
 .recipe-list > .heading {
   font-size: 80px;
   margin-bottom: 50px;
+}
+
+#sub-heading {
+  font-size: 28px;
+}
+
+.ingredients {
+  background-color: #EFEFEF;
+  padding: 30px;
+  color: #BC1823;
 }
 
 div.polaroid {
